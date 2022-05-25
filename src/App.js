@@ -15,7 +15,7 @@ import ContactPage from './pages/ContactPage';
 
 function App() {
 
-
+  // new
   useEffect(() => {
     function preloader() {
       $('#preloader').delay(0).fadeOut();
