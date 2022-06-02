@@ -118,10 +118,10 @@ const HeaderTwo = () => {
                     <li className="menu-item-has-children"><a href="/#">Movie</a>
                       <ul className="submenu">
                         <li><a href="/movie">Movie</a></li>
-                        <li><a href="/movie-details">Movie Details</a></li>
+                        <li><a href="/details">Movie Details</a></li>
                       </ul>
                     </li>
-                    <li><a href="/tv-show">tv show</a></li>
+                    <li><a href="/lessons">tv show</a></li>
                     <li><a href="/pricing">Pricing</a></li>
                     <li className="menu-item-has-children"><a href="/#">blog</a>
                       <ul className="submenu">

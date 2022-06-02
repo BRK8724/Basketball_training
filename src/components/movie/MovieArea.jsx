@@ -1,18 +1,34 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import Menu from './MovieMenu';
+import VideoService from "../../services/video.service";
 
 function MovieArea() {
-  const [items, setItems] = useState(Menu);
+
+  const [allItems, setAllItems] = useState([]);
+  const [page, setPage] = useState(0);
+  const [size, setSize] = useState(8);
+  const [items, setItems] = useState([]);
   const filterItem = (categItem) => {
-    const updatesItems = Menu.filter((curElem) => {
+    const updateItems = allItems.filter((curElem) => {
 
       return curElem.category === categItem;
 
     })
-
-    setItems(updatesItems);
+    setItems(updateItems);
   }
+  useEffect(async () => {
+    let response = await VideoService.getList({page: 0, size: 100});
+    if(response){
+      setItems(response.content)
+      setAllItems(response.content)
+    }
+  },[])
+
+  // useEffect(() => {
+  //   filterItem(2);
+  // }, [allItems])
+
   return (
     <section className="movie-area movie-bg" style={{ backgroundImage: 'url("../img/bg/movie_bg.jpg")' }}>
       <div className="container">
@@ -26,9 +42,10 @@ function MovieArea() {
           <div className="col-lg-6">
             <div className="movie-page-meta">
               <div className="tr-movie-menu-active text-center">
-                <button className="active" data-filter="cat-three" onClick={() => filterItem('Animation')}>Анхлан суралцагч</button>
-                <button data-filter=".cat-one" onClick={() => filterItem('Movies')}>Тамирчин</button>
-                <button data-filter=".cat-two" onClick={() => filterItem('Anime')}>Мэргэжлийн тамирчин</button>
+                {/* <button className="active" data-filter="cat-three" onClick={() => filterItem(2)}>Анхлан суралцагч</button>
+                <button data-filter=".cat-one" onClick={() => filterItem(3)}>Тамирчин</button>
+                <button data-filter=".cat-two" onClick={() => filterItem(4)}>Мэргэжлийн тамирчин</button>
+                <button data-filter=".cat-two" onClick={() => filterItem(5)}>Дасгалжуулагч</button> */}
               </div>
             </div>
           </div>
@@ -44,11 +61,11 @@ function MovieArea() {
                 <div className="col-xl-3 col-lg-4 col-sm-6 grid-item grid-sizer cat-two" key={id}>
                   <div className="movie-item mb-60">
                     <div className="movie-poster">
-                      <a href="/movie-details"><img src={image} alt="" /></a>
+                      <a href="/details"><img src={image} alt="" /></a>
                     </div>
                     <div className="movie-content">
                       <div className="top">
-                        <h5 className="title"><a href="/movie-details">{title}</a></h5>
+                        <h5 className="title"><a href="/details">{title}</a></h5>
                         <span className="date">{date}</span>
                       </div>
                       <div className="bottom">
@@ -63,15 +80,6 @@ function MovieArea() {
                     </div>
                   </div>
                 </div>
-
-
-
-
-
-
-
-
-
               )
             })
 
@@ -83,11 +91,11 @@ function MovieArea() {
             <div className="pagination-wrap mt-30">
               <nav>
                 <ul>
-                  <li className="active"><a href="/#">1</a></li>
-                  <li><a href="/#">2</a></li>
-                  <li><a href="/#">3</a></li>
-                  <li><a href="/#">4</a></li>
-                  <li><a href="/#">Next</a></li>
+                  <li className="active"><a >1</a></li>
+                  <li><a >2</a></li>
+                  <li><a >3</a></li>
+                  <li><a >4</a></li>
+                  <li><a >Next</a></li>
                 </ul>
               </nav>
             </div>

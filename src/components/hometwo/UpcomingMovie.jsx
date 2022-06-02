@@ -32,7 +32,7 @@ const UpcomingMovie = () => {
             <div className="ucm-active-two ">
               <div className="movie-item movie-item-two mb-30">
                 <div className="movie-poster">
-                  <a href="/movie-details"><img src="img/poster/s_ucm_poster01.jpg" alt="" /></a>
+                  <a href="/details"><img src="img/poster/s_ucm_poster01.jpg" alt="" /></a>
                 </div>
                 <div className="movie-content">
                   <div className="rating">
@@ -42,7 +42,7 @@ const UpcomingMovie = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                   </div>
-                  <h5 className="title"><a href="/movie-details">Message in a Bottle</a></h5>
+                  <h5 className="title"><a href="/details">Message in a Bottle</a></h5>
                   <span className="rel">Adventure</span>
                   <div className="movie-content-bottom">
                     <ul>
@@ -59,7 +59,7 @@ const UpcomingMovie = () => {
               </div>
               <div className="movie-item movie-item-two mb-30">
                 <div className="movie-poster">
-                  <a href="/movie-details"><img src="img/poster/s_ucm_poster02.jpg" alt="" /></a>
+                  <a href="/details"><img src="img/poster/s_ucm_poster02.jpg" alt="" /></a>
                 </div>
                 <div className="movie-content">
                   <div className="rating">
@@ -69,7 +69,7 @@ const UpcomingMovie = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                   </div>
-                  <h5 className="title"><a href="/movie-details">The Parkar Legend</a></h5>
+                  <h5 className="title"><a href="/details">The Parkar Legend</a></h5>
                   <span className="rel">Adventure</span>
                   <div className="movie-content-bottom">
                     <ul>
@@ -86,7 +86,7 @@ const UpcomingMovie = () => {
               </div>
               <div className="movie-item movie-item-two mb-30">
                 <div className="movie-poster">
-                  <a href="/movie-details"><img src="img/poster/s_ucm_poster03.jpg" alt="" /></a>
+                  <a href="/details"><img src="img/poster/s_ucm_poster03.jpg" alt="" /></a>
                 </div>
                 <div className="movie-content">
                   <div className="rating">
@@ -96,7 +96,7 @@ const UpcomingMovie = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                   </div>
-                  <h5 className="title"><a href="/movie-details">The Tonoy 88 Bottle</a></h5>
+                  <h5 className="title"><a href="/details">The Tonoy 88 Bottle</a></h5>
                   <span className="rel">Adventure</span>
                   <div className="movie-content-bottom">
                     <ul>
@@ -113,7 +113,7 @@ const UpcomingMovie = () => {
               </div>
               <div className="movie-item movie-item-two mb-30">
                 <div className="movie-poster">
-                  <a href="/movie-details"><img src="img/poster/s_ucm_poster04.jpg" alt="" /></a>
+                  <a href="/details"><img src="img/poster/s_ucm_poster04.jpg" alt="" /></a>
                 </div>
                 <div className="movie-content">
                   <div className="rating">
@@ -123,7 +123,7 @@ const UpcomingMovie = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                   </div>
-                  <h5 className="title"><a href="/movie-details">The Ackle Bottle</a></h5>
+                  <h5 className="title"><a href="/details">The Ackle Bottle</a></h5>
                   <span className="rel">Adventure</span>
                   <div className="movie-content-bottom">
                     <ul>
@@ -140,7 +140,7 @@ const UpcomingMovie = () => {
               </div>
               <div className="movie-item movie-item-two mb-30">
                 <div className="movie-poster">
-                  <a href="/movie-details"><img src="img/poster/s_ucm_poster05.jpg" alt="" /></a>
+                  <a href="/details"><img src="img/poster/s_ucm_poster05.jpg" alt="" /></a>
                 </div>
                 <div className="movie-content">
                   <div className="rating">
@@ -150,7 +150,7 @@ const UpcomingMovie = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                   </div>
-                  <h5 className="title"><a href="/movie-details">Message in a Bottle</a></h5>
+                  <h5 className="title"><a href="/details">Message in a Bottle</a></h5>
                   <span className="rel">Adventure</span>
                   <div className="movie-content-bottom">
                     <ul>
@@ -167,7 +167,7 @@ const UpcomingMovie = () => {
               </div>
               <div className="movie-item movie-item-two mb-30">
                 <div className="movie-poster">
-                  <a href="/movie-details"><img src="img/poster/s_ucm_poster06.jpg" alt="" /></a>
+                  <a href="/details"><img src="img/poster/s_ucm_poster06.jpg" alt="" /></a>
                 </div>
                 <div className="movie-content">
                   <div className="rating">
@@ -177,7 +177,7 @@ const UpcomingMovie = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                   </div>
-                  <h5 className="title"><a href="/movie-details">The Dog Woof</a></h5>
+                  <h5 className="title"><a href="/details">The Dog Woof</a></h5>
                   <span className="rel">Adventure</span>
                   <div className="movie-content-bottom">
                     <ul>
@@ -198,7 +198,7 @@ const UpcomingMovie = () => {
             <div className="ucm-active-two owl-carousel">
               <div className="movie-item movie-item-two mb-30">
                 <div className="movie-poster">
-                  <a href="/movie-details"><img src="img/poster/s_ucm_poster06.jpg" alt="" /></a>
+                  <a href="/details"><img src="img/poster/s_ucm_poster06.jpg" alt="" /></a>
                 </div>
                 <div className="movie-content">
                   <div className="rating">
@@ -208,7 +208,7 @@ const UpcomingMovie = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                   </div>
-                  <h5 className="title"><a href="/movie-details">Message in a Bottle</a></h5>
+                  <h5 className="title"><a href="/details">Message in a Bottle</a></h5>
                   <span className="rel">Adventure</span>
                   <div className="movie-content-bottom">
                     <ul>
@@ -225,7 +225,7 @@ const UpcomingMovie = () => {
               </div>
               <div className="movie-item movie-item-two mb-30">
                 <div className="movie-poster">
-                  <a href="/movie-details"><img src="img/poster/s_ucm_poster07.jpg" alt="" /></a>
+                  <a href="/details"><img src="img/poster/s_ucm_poster07.jpg" alt="" /></a>
                 </div>
                 <div className="movie-content">
                   <div className="rating">
@@ -235,7 +235,7 @@ const UpcomingMovie = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                   </div>
-                  <h5 className="title"><a href="/movie-details">The Parkar Legend</a></h5>
+                  <h5 className="title"><a href="/details">The Parkar Legend</a></h5>
                   <span className="rel">Adventure</span>
                   <div className="movie-content-bottom">
                     <ul>
@@ -252,7 +252,7 @@ const UpcomingMovie = () => {
               </div>
               <div className="movie-item movie-item-two mb-30">
                 <div className="movie-poster">
-                  <a href="/movie-details"><img src="img/poster/s_ucm_poster08.jpg" alt="" /></a>
+                  <a href="/details"><img src="img/poster/s_ucm_poster08.jpg" alt="" /></a>
                 </div>
                 <div className="movie-content">
                   <div className="rating">
@@ -262,7 +262,7 @@ const UpcomingMovie = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                   </div>
-                  <h5 className="title"><a href="movie-details">The Tonoy 88 Bottle</a></h5>
+                  <h5 className="title"><a href="details">The Tonoy 88 Bottle</a></h5>
                   <span className="rel">Adventure</span>
                   <div className="movie-content-bottom">
                     <ul>
@@ -279,7 +279,7 @@ const UpcomingMovie = () => {
               </div>
               <div className="movie-item movie-item-two mb-30">
                 <div className="movie-poster">
-                  <a href="/movie-details"><img src="img/poster/s_ucm_poster09.jpg" alt="" /></a>
+                  <a href="/details"><img src="img/poster/s_ucm_poster09.jpg" alt="" /></a>
                 </div>
                 <div className="movie-content">
                   <div className="rating">
@@ -289,7 +289,7 @@ const UpcomingMovie = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                   </div>
-                  <h5 className="title"><a href="/movie-details">The Ackle Bottle</a></h5>
+                  <h5 className="title"><a href="/details">The Ackle Bottle</a></h5>
                   <span className="rel">Adventure</span>
                   <div className="movie-content-bottom">
                     <ul>
@@ -306,7 +306,7 @@ const UpcomingMovie = () => {
               </div>
               <div className="movie-item movie-item-two mb-30">
                 <div className="movie-poster">
-                  <a href="/movie-details"><img src="img/poster/s_ucm_poster02.jpg" alt="" /></a>
+                  <a href="/details"><img src="img/poster/s_ucm_poster02.jpg" alt="" /></a>
                 </div>
                 <div className="movie-content">
                   <div className="rating">
@@ -316,7 +316,7 @@ const UpcomingMovie = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                   </div>
-                  <h5 className="title"><a href="/movie-details">Message in a Bottle</a></h5>
+                  <h5 className="title"><a href="/details">Message in a Bottle</a></h5>
                   <span className="rel">Adventure</span>
                   <div className="movie-content-bottom">
                     <ul>
@@ -333,7 +333,7 @@ const UpcomingMovie = () => {
               </div>
               <div className="movie-item movie-item-two mb-30">
                 <div className="movie-poster">
-                  <a href="/movie-details"><img src="img/poster/s_ucm_poster01.jpg" alt="" /></a>
+                  <a href="/details"><img src="img/poster/s_ucm_poster01.jpg" alt="" /></a>
                 </div>
                 <div className="movie-content">
                   <div className="rating">
@@ -343,7 +343,7 @@ const UpcomingMovie = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                   </div>
-                  <h5 className="title"><a href="/movie-details">The Dog Woof</a></h5>
+                  <h5 className="title"><a href="/details">The Dog Woof</a></h5>
                   <span className="rel">Adventure</span>
                   <div className="movie-content-bottom">
                     <ul>
@@ -364,7 +364,7 @@ const UpcomingMovie = () => {
             <div className="ucm-active-two ">
               <div className="movie-item movie-item-two mb-30">
                 <div className="movie-poster">
-                  <a href="/movie-details"><img src="img/poster/s_ucm_poster01.jpg" alt="" /></a>
+                  <a href="/details"><img src="img/poster/s_ucm_poster01.jpg" alt="" /></a>
                 </div>
                 <div className="movie-content">
                   <div className="rating">
@@ -374,7 +374,7 @@ const UpcomingMovie = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                   </div>
-                  <h5 className="title"><a href="/movie-details">Message in a Bottle</a></h5>
+                  <h5 className="title"><a href="/details">Message in a Bottle</a></h5>
                   <span className="rel">Adventure</span>
                   <div className="movie-content-bottom">
                     <ul>
@@ -391,7 +391,7 @@ const UpcomingMovie = () => {
               </div>
               <div className="movie-item movie-item-two mb-30">
                 <div className="movie-poster">
-                  <a href="/movie-details"><img src="img/poster/s_ucm_poster02.jpg" alt="" /></a>
+                  <a href="/details"><img src="img/poster/s_ucm_poster02.jpg" alt="" /></a>
                 </div>
                 <div className="movie-content">
                   <div className="rating">
@@ -401,7 +401,7 @@ const UpcomingMovie = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                   </div>
-                  <h5 className="title"><a href="/movie-details">The Parkar Legend</a></h5>
+                  <h5 className="title"><a href="/details">The Parkar Legend</a></h5>
                   <span className="rel">Adventure</span>
                   <div className="movie-content-bottom">
                     <ul>
@@ -418,7 +418,7 @@ const UpcomingMovie = () => {
               </div>
               <div className="movie-item movie-item-two mb-30">
                 <div className="movie-poster">
-                  <a href="/movie-details"><img src="img/poster/s_ucm_poster03.jpg" alt="" /></a>
+                  <a href="/details"><img src="img/poster/s_ucm_poster03.jpg" alt="" /></a>
                 </div>
                 <div className="movie-content">
                   <div className="rating">
@@ -428,7 +428,7 @@ const UpcomingMovie = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                   </div>
-                  <h5 className="title"><a href="/movie-details">The Tonoy 88 Bottle</a></h5>
+                  <h5 className="title"><a href="/details">The Tonoy 88 Bottle</a></h5>
                   <span className="rel">Adventure</span>
                   <div className="movie-content-bottom">
                     <ul>
@@ -445,7 +445,7 @@ const UpcomingMovie = () => {
               </div>
               <div className="movie-item movie-item-two mb-30">
                 <div className="movie-poster">
-                  <a href="/movie-details"><img src="img/poster/s_ucm_poster04.jpg" alt="" /></a>
+                  <a href="/details"><img src="img/poster/s_ucm_poster04.jpg" alt="" /></a>
                 </div>
                 <div className="movie-content">
                   <div className="rating">
@@ -455,7 +455,7 @@ const UpcomingMovie = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                   </div>
-                  <h5 className="title"><a href="/movie-details">The Ackle Bottle</a></h5>
+                  <h5 className="title"><a href="/details">The Ackle Bottle</a></h5>
                   <span className="rel">Adventure</span>
                   <div className="movie-content-bottom">
                     <ul>
@@ -472,7 +472,7 @@ const UpcomingMovie = () => {
               </div>
               <div className="movie-item movie-item-two mb-30">
                 <div className="movie-poster">
-                  <a href="/movie-details"><img src="img/poster/s_ucm_poster05.jpg" alt="" /></a>
+                  <a href="/details"><img src="img/poster/s_ucm_poster05.jpg" alt="" /></a>
                 </div>
                 <div className="movie-content">
                   <div className="rating">
@@ -482,7 +482,7 @@ const UpcomingMovie = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                   </div>
-                  <h5 className="title"><a href="/movie-details">Message in a Bottle</a></h5>
+                  <h5 className="title"><a href="/details">Message in a Bottle</a></h5>
                   <span className="rel">Adventure</span>
                   <div className="movie-content-bottom">
                     <ul>
@@ -502,7 +502,7 @@ const UpcomingMovie = () => {
               </div>
               <div className="movie-item movie-item-two mb-30">
                 <div className="movie-poster">
-                  <a href="/movie-details"><img src="img/poster/s_ucm_poster06.jpg" alt="" /></a>
+                  <a href="/details"><img src="img/poster/s_ucm_poster06.jpg" alt="" /></a>
                 </div>
                 <div className="movie-content">
                   <div className="rating">
@@ -512,7 +512,7 @@ const UpcomingMovie = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                   </div>
-                  <h5 className="title"><a href="/movie-details">The Dog Woof</a></h5>
+                  <h5 className="title"><a href="/details">The Dog Woof</a></h5>
                   <span className="rel">Adventure</span>
                   <div className="movie-content-bottom">
                     <ul>

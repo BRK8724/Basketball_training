@@ -16,11 +16,11 @@ const TvSeries = () => {
           <div className="col-xl-3 col-lg-4 col-sm-6">
             <div className="movie-item mb-50">
               <div className="movie-poster">
-                <a href="/movie-details"><img src="img/poster/ucm_poster01.jpg" alt="" /></a>
+                <a href="/details"><img src="img/poster/ucm_poster01.jpg" alt="" /></a>
               </div>
               <div className="movie-content">
                 <div className="top">
-                  <h5 className="title"><a href="/movie-details">Самбараар бөмбөг авалт</a></h5>
+                  <h5 className="title"><a href="/details">Самбараар бөмбөг авалт</a></h5>
                   <span className="date">2022</span>
                 </div>
                 <div className="bottom">
@@ -38,11 +38,11 @@ const TvSeries = () => {
           <div className="col-xl-3 col-lg-4 col-sm-6">
             <div className="movie-item mb-50">
               <div className="movie-poster">
-                <a href="/movie-details"><img src="img/poster/ucm_poster02.jpg" alt="" /></a>
+                <a href="/details"><img src="img/poster/ucm_poster02.jpg" alt="" /></a>
               </div>
               <div className="movie-content">
                 <div className="top">
-                  <h5 className="title"><a href="/movie-details">Холын зайн шидэлт</a></h5>
+                  <h5 className="title"><a href="/details">Холын зайн шидэлт</a></h5>
                   <span className="date">2022</span>
                 </div>
                 <div className="bottom">
@@ -60,11 +60,11 @@ const TvSeries = () => {
           <div className="col-xl-3 col-lg-4 col-sm-6">
             <div className="movie-item mb-50">
               <div className="movie-poster">
-                <a href="/movie-details"><img src="img/poster/ucm_poster03.jpg" alt="" /></a>
+                <a href="/details"><img src="img/poster/ucm_poster03.jpg" alt="" /></a>
               </div>
               <div className="movie-content">
                 <div className="top">
-                  <h5 className="title"><a href="/movie-details">Довтолгоо</a></h5>
+                  <h5 className="title"><a href="/details">Довтолгоо</a></h5>
                   <span className="date">2021</span>
                 </div>
                 <div className="bottom">
@@ -82,11 +82,11 @@ const TvSeries = () => {
           <div className="col-xl-3 col-lg-4 col-sm-6">
             <div className="movie-item mb-50">
               <div className="movie-poster">
-                <a href="/movie-details"><img src="img/poster/ucm_poster04.jpg" alt="" /></a>
+                <a href="/details"><img src="img/poster/ucm_poster04.jpg" alt="" /></a>
               </div>
               <div className="movie-content">
                 <div className="top">
-                  <h5 className="title"><a href="/movie-details">Бөмбөг эзэмшилт</a></h5>
+                  <h5 className="title"><a href="/details">Бөмбөг эзэмшилт</a></h5>
                   <span className="date">2021</span>
                 </div>
                 <div className="bottom">

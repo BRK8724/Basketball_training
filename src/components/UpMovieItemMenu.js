@@ -8,7 +8,6 @@ const Menu = [
         quality: "hd",
         duration: "7 min",
         ratings: "3.5",
-
     },
     {
         id: 2,

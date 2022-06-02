@@ -10,8 +10,10 @@ import Pricing from './pages/Pricing';
 import Blogs from './pages/Blogs';
 import BlogDetails from './pages/BlogDetails';
 import ContactPage from './pages/ContactPage';
-
-
+import LandingPage from './pages/LandingPage';
+import RegisterPage from './pages/RegisterPage';
+import LoginPage from './pages/LoginPage';
+import history from './history';
 
 function App() {
 
@@ -28,44 +30,54 @@ function App() {
   })
   return (
     <div className="App">
-      <Router>
-
+      <Router history={history}>
         <Switch>
           <Route exact={true} path="/">
+            <LandingPage />
+          </Route>
+
+          <Route exact={true} path="/register">
+            <RegisterPage />
+          </Route>
+
+          <Route exact={true} path="/login">
+            <LoginPage />
+          </Route>
+
+          <Route exact={true} path="/home">
             <Homeone />
           </Route>
 
-          <Route exact={true} path="/index-2">
+          {/* <Route exact={true} path="/index-2">
             <HomeTwo />
           </Route>
 
           <Route exact={true} path="/movie">
             <Movie />
-          </Route>
-          <Route exact={true} path="/movie-details">
+          </Route> */}
+
+          <Route exact={true} path="/details">
             <MovieDetails />
-
           </Route>
-          <Route exact={true} path="/tv-show">
+
+          <Route exact={true} path="/lessons">
             <TvSeries />
-
           </Route>
+
           <Route exact={true} path="/pricing">
             <Pricing />
-
           </Route>
-          <Route exact={true} path="/blog">
+
+          {/* <Route exact={true} path="/blog">
             <Blogs />
+          </Route> */}
 
-          </Route>
-          <Route exact={true} path="/blog-details">
+          {/* <Route exact={true} path="/blog-details">
             <BlogDetails />
-
-          </Route>
+          </Route> */}
 
           <Route exact={true} path="/contact">
             <ContactPage />
-
           </Route>
 
 

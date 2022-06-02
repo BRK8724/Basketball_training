@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="row align-items-center">
               <div className="col-lg-3">
                 <div className="footer-logo">
-                  <Link to="/"><img src="img/logo/logo.png" alt="" /></Link>
+                  <Link to="/home"><img src="img/logo/logo.png" alt="" /></Link>
                 </div>
               </div>
               <div className="col-lg-9">
@@ -18,7 +18,7 @@ const Footer = () => {
                   <nav>
                     <ul className="navigation">
                       <li><a href="#">Нүүр</a></li>
-                      <li><a href="/tv-show">Бүх сургалт</a></li>
+                      <li><a href="/lessons">Бүх сургалт</a></li>
                       <li><a href="/pricing">Багцууд</a></li>
                       <li><a href="/contact">Холбоо барих</a></li>
                     </ul>

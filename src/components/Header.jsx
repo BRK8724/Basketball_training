@@ -82,32 +82,32 @@ const Header = () => {
               <div className="menu-wrap">
                 <nav className="menu-nav show">
                   <div className="logo">
-                    <Link to="/">
+                    <Link to="/home">
                       <img src="img/logo/logo.png" alt="Logo" />
                     </Link>
                   </div>
                   <div className="navbar-wrap main-menu d-none d-lg-flex">
                     <ul className="navigation">
-                      <li className="active menu-item-has-children"><Link to="/">Нүүр</Link>
+                      <li className="active menu-item-has-children"><Link to="/home">Нүүр</Link>
                         {/* <ul className="submenu">
                           <li className="active"><Link to="/">HomeOne </Link></li>
                           <li><Link to="/index-2">Home Two </Link></li>
                         </ul> */}
                       </li>
-                      <li><a href="/tv-show">Бүх сургалт</a></li>
+                      <li><a href="/lessons">Бүх сургалт</a></li>
                       <li><a href="/pricing">Багцууд</a></li>
                       <li><a href="/contact">Холбоо барих</a></li>
                     </ul>
                   </div>
                   <div className="header-action d-none d-md-block">
                     <ul>
-                      <div className="footer-search">
+                      {/* <div className="footer-search">
                         <form action="/#">
                           <input type="text" placeholder="Сургалт хайх" />
                           <button><i className="fas fa-search" /></button>
                         </form>
-                      </div>
-                      <li className="header-btn"><a href="/#" className="btn">Нэвтрэх</a></li>
+                      </div> */}
+                      <li className="header-btn"><a href="/#" className="btn">Гарах</a></li>
                     </ul>
                   </div>
                 </nav>
@@ -116,7 +116,7 @@ const Header = () => {
               <div className="mobile-menu">
                 <div className="close-btn"><i className="fas fa-times" /></div>
                 <nav className="menu-box">
-                  <div className="nav-logo"><Link to="/"><img src="img/logo/logo.png" alt="" /></Link>
+                  <div className="nav-logo"><Link to="/home"><img src="img/logo/logo.png" alt="" /></Link>
                   </div>
                   <div className="menu-outer">
                     {/*Here Menu Will Come Automatically Via Javascript / Same Menu as in Header*/}

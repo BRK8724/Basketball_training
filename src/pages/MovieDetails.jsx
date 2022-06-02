@@ -5,7 +5,7 @@ import EpipsodeArea from '../components/moviedetails/EpipsodeArea'
 import MovieDetail from '../components/moviedetails/MovieDetail'
 import TvSeries from '../components/moviedetails/TvSeries'
 
-const MovieDetails = () => {
+const MovieDetails = (props) => {
   return (
     <div>
         <Header/>

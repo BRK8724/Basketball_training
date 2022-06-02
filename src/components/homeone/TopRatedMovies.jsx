@@ -45,11 +45,11 @@ const TopRatedMovies = () => {
              <div className="col-xl-3 col-lg-4 col-sm-6 grid-item grid-sizer cat-two" key={id}>
             <div className="movie-item mb-60">
               <div className="movie-poster">
-                <a href="/movie-details"><img src={image} alt="" /></a>
+                <a href="/details"><img src={image} alt="" /></a>
               </div>
               <div className="movie-content">
                 <div className="top">
-                  <h5 className="title"><a href="/movie-details">{title}</a></h5>
+                  <h5 className="title"><a href="/details">{title}</a></h5>
                   <span className="date">{date}</span>
                 </div>
                 <div className="bottom">

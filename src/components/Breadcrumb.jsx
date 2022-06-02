@@ -10,7 +10,7 @@ function Breadcrumb(props) {
               <h2 className="title">{props.title}</h2>
               <nav aria-label="breadcrumb">
                 <ol className="breadcrumb">
-                  <li className="breadcrumb-item"><a href="tv-show">Бүх сургалтууд</a></li>
+                  <li className="breadcrumb-item"><a href="lessons">Бүх сургалтууд</a></li>
                   <li className="breadcrumb-item active" aria-current="page">Холбоо барих</li>
                 </ol>
               </nav>
